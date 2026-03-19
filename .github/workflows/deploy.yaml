@@ -16,6 +16,7 @@
               username: ${{ secrets.USERNAME }}
               password: ${{ secrets.PASSWORD }}
               script: | 
+                cd /root/PythonProject7
                 git pull origin main
                 python3 main.py
                 
